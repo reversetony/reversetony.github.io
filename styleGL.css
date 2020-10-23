@@ -39,6 +39,7 @@ p{
 .niz{
 	color: white;
 	text-align: center;
+	font-size: 3.5ex;
 }
 .niz1{
 	font-family: Comic Sans MS, Comic Sans;
@@ -64,14 +65,14 @@ h3{
 
 .header {
 	background: linear-gradient(to bottom, #000000, #434343);
-	height: 15%;
+	height: 100%;
+	padding-top: 0.2%;
+	padding-bottom: 0.2%;
 	text-align: center;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
-	line-height: 10vh;
 	width: 98%;
 	margin-left: 1%;
-	margin-bottom: -1.6%;
 }
 
 #glavcontent{
@@ -126,7 +127,7 @@ h3{
 .men{
 	display: inline;
 	margin: 2.2%;
-	font-size: 15pt;
+	font-size: 1.8ex;
 	padding: 0.7%;
 }
 
