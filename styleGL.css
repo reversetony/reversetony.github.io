@@ -114,6 +114,7 @@ h3{
 	border: 4px outset black;
 	position: fixed;
 	left: 74.5%;
+	height: 100%;
 }
 
 .lastul{
@@ -168,7 +169,7 @@ a:link{
 }
 
 #downbar{
-	height: 78%;
+	height: 79%;
 }
 
 #compbar{
