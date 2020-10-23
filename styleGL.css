@@ -1,0 +1,175 @@
+body{
+	background-image: url(img/fon1.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+img{
+	width: 560px;
+	height: 380px;
+	border: 4px outset black;
+	margin: 0px 7px 0px 10px;
+}
+
+#bikes{
+	width: 800px;
+	height: 532px;
+}
+#comp{
+	width: 700px;
+	height: 432px;
+}
+
+#compCHITA{
+	width: 440px;
+	height: 550px;
+	float: left;
+	margin-bottom: 1%;
+}
+
+p{
+	text-align: center;
+}
+
+.glavfoto{
+	float: right;
+}
+
+.niz{
+	color: white;
+	text-align: center;
+}
+.niz1{
+	font-family: Comic Sans MS, Comic Sans;
+	color: white;
+	padding-left: 2%;
+	text-align: left;
+	font-size: 13pt;
+}
+h3{
+	font-family: Comic Sans MS, Comic Sans;
+	text-align: justify;
+}
+
+.bar{
+	text-align: left;
+	font-family: Verdana;
+	color: black;
+}
+
+.primer{
+	text-align: center;
+}
+
+.header {
+	background: linear-gradient(to bottom, #000000, #434343);
+	height: 15%;
+	text-align: center;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	line-height: 10vh;
+	width: 98%;
+	margin-left: 1%;
+	margin-bottom: -1.6%;
+}
+
+#glavcontent{
+	background-color: #E7E7E7;
+	float: left;
+	width: 97%;
+	height: 100%;
+	margin-left: 1%;
+}
+
+.footer{
+	background: linear-gradient(to top, #000000, #434343);
+	height: 5vh;
+	width: 98%;
+	margin-left: 1%;
+	clear: both;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.content {
+	background-color: #DEDEDE;
+	float: left;
+	width: 65%;
+	height: 100%;
+	margin-right: 2%;
+	margin-left: 5%;
+	padding-right: 0.5%;
+	padding-left: 0.5%;
+}
+
+.rightbar {
+	background-color: #C4CDCF;
+	float: right;
+	width: 20%;
+	margin-bottom: 2%;
+	padding-right: 0.5%;
+	padding-left: 0.5%;
+	border: 4px outset black;
+	position: fixed;
+	left: 74.5%;
+}
+
+.lastul{
+	margin-top: 2%;
+}
+
+.nonedot{
+	list-style-type: none;
+}
+
+.men{
+	display: inline;
+	margin: 2.2%;
+	font-size: 15pt;
+	padding: 0.7%;
+}
+
+.men:hover{
+	text-decoration: none;
+	border-radius: 10px;
+	background: black;
+	color: black;
+}
+
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+
+.last:link{
+	color: yellow;
+	text-decoration: none;
+}
+.last:hover{
+	color: yellow;
+}
+.last:visited{
+	color: yellow;
+}
+
+#dirtbar{
+	height: 68%;
+}
+
+#endurobar{
+	height: 72%;
+}
+
+#downbar{
+	height: 78%;
+}
+
+#compbar{
+	height: 78%;
+}
