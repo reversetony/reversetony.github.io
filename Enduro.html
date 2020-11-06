@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+<head> 
 	<title>Дисцеплины ENDURO</title>
 	<link rel="stylesheet" href="styleGL.css">
+	<link rel="stylesheet" href="stylemenu.css">
 	<link rel="shortcut icon" href="img/icon.png" type="image/png">
-</head>
+</head> 
 	<body id="endurobody">
 		<div class="container">
-			<div class="header">
+			<div id="notmainheader" class="header">
 				<h2>
 					<ul class="nonedot">
-						<li class="men"><a href="Dirt.html">Дисциплина DIRT</a></li>
-						<li class="men"><a href="Enduro.html">Дисциплина ENDURO</a></li>
-						<li class="men"><a href="index.html">ГЛАВНАЯ</a></li>
-						<li class="men"><a href="Downhill.html">Дисциплина DOWNHILL</a></li>
-						<li class="men"><a href="Compdownhill.html">Соревнования и райдеры</a></li>
+						<li id="memmain" class="men"><a id="mainlink" href="index.html">ГЛАВНАЯ</a></li>
+						<li id="memmain" class="men"><a href="Dirt.html">Дисциплина DIRT</a></li>
+
+						<li class="men"><a href="Enduro.html">Дисциплина ENDURO</a>
+							<ul id="downenduro" class="downUL">
+									<li id="nottop" class="downLI"><a class="downA" href="MorephotoENDURO.html">Больше фото</a></li>
+									<li class="downLI"><a class="downA" href="SpotENDURO.html">Споты в твоём городе</a></li>
+							</ul>
+						</li>
+
+						<li id="memmain" class="men"><a href="Downhill.html">Дисциплина DOWNHILL</a></li>
+						<li id="memmain" class="men"><a href="Compdownhill.html">Соревнования и райдеры</a></li>
+						<li id="memmain" class="men"><a href="DopInf.html">Доп. Информация</a></li>
 					</ul>
 				</h2>
 			</div>

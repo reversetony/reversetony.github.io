@@ -1,0 +1,113 @@
+
+ul.nonedot li.men ul.downUL   {
+	display: none;
+}
+
+ul.nonedot li.men:hover ul.downUL  {
+	display: block;
+	position: absolute;
+	top: 3.8rem;
+	left: 14.1rem;
+	width: 13.9375rem;
+	background-color: black;
+	z-index: 1000;
+	padding-left: 0px;
+	padding-bottom: 0.1875rem;
+	text-align: center;
+	border-radius: 0.625rem;
+}
+
+ul.nonedot li.men:hover ul.downUL li.downLI {
+	display: block;
+	float: none;
+	width: 13.96rem;
+	border-top: 2px solid #4f4f4f;
+	
+}
+ul.nonedot li.men:hover ul.downUL li.downLI a.downA {
+	border-right: none;
+	padding: 0.375rem 0.875rem;
+	padding-top: 0px;
+}
+
+ul.nonedot li.men:hover ul.downUL li.downLI a.downA:hover {
+	background-color: transparent;
+	color: yellow;
+}
+
+#nottop{
+	border-top: none;
+}
+/*для дёрта*/
+ul.nonedot li.men:hover ul#dirtUL{
+	left: 13.65rem;
+}
+/*---------------*/
+
+/*для эндуро*/
+ul.nonedot li.men:hover ul#downenduro{
+	left: 28.08rem;
+	width: 14.5rem;
+}
+ul.nonedot li.men:hover ul#downenduro li.downLI{
+	width: 14.5rem;
+}
+ul.nonedot li.men:hover ul#downenduroforphoto{
+	left: 28.45rem;
+	width: 14.8rem;
+}
+ul.nonedot li.men:hover ul#downenduroforphoto li.downLI{
+	width: 14.8rem;
+}
+/*-------------*/
+
+/*для даунхила*/
+ul.nonedot li.men:hover ul#downdownhill{
+	left: 43.5rem;
+	width: 16.8rem;
+}
+ul.nonedot li.men:hover ul#downdownhill li.downLI{
+	width: 16.8rem;
+}
+ul.nonedot li.men:hover ul#downdownhillforphoto{
+	left: 44rem;
+	width: 16.8rem;
+}
+ul.nonedot li.men:hover ul#downdownhillforphoto li.downLI{
+	width: 16.8rem;
+}
+/*-------------*/
+
+/*для соревнований*/
+ul.nonedot li.men:hover ul#downcomp{
+	left: 60.9rem;
+	width: 16.8rem;
+}
+ul.nonedot li.men:hover ul#downcomp li.downLI{
+	width: 16.8rem;
+}
+ul.nonedot li.men:hover ul#downcompforphoto{
+	left: 61.5rem;
+	width: 16.8rem;
+}
+ul.nonedot li.men:hover ul#downcompforphoto li.downLI{
+	width: 16.8rem;
+}
+/*-------------*/
+
+/*для доп.информации*/
+ul.nonedot li.men:hover ul#downdop{
+	left: 77.3rem;
+	width: 13.96rem;
+}
+ul.nonedot li.men:hover ul#downdop li.downLI{
+	width: 13.96rem;
+}
+ul.nonedot li.men:hover ul#downdopforphoto{
+	left: 78rem;
+	width: 13.96rem;
+}
+ul.nonedot li.men:hover ul#downdopforphoto li.downLI{
+	width: 13.96rem;
+}
+/*-------------*/
